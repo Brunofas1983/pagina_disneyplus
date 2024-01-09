@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 
 @font-face {
     font-family: avenir;
@@ -18,7 +19,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     background-color: variaveis.$cordefundo;
