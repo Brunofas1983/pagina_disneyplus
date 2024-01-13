@@ -12,6 +12,10 @@
         margin-top: 80px;
         text-align: center;
 
+        @media (max-width: 767px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
 
 
         &__item {

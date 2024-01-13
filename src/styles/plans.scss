@@ -16,6 +16,10 @@
         display: flex;
         justify-content: space-around;
         margin-top: 50px;
+
+        @media (max-width: 767px) {
+            display: block;
+        }
         
 
         &__item {
@@ -23,6 +27,10 @@
             padding: 60px 44px 44px;
             max-width: 380px;
             width: 100%;
+
+            @media (max-width: 767px) {
+                padding: 30px 44px 44px;
+            }
 
             &:nth-child(2) {
                 background-image: url(../../dist/images/images/fundo_combo_plus.png);
