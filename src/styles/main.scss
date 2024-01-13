@@ -70,6 +70,7 @@ body {
 
 .title {
     @include title(40px);
+    text-align: center;
 
     @media (max-width: 767px) {
         @include title(24px);
